@@ -1,7 +1,14 @@
 @charset "UTF-8";
 
+#all {
+    text-align: center;
+    margin: 50px;
+}
+
 #head1 {
     border-bottom: dashed 2px;
+    margin-top: 30px;
+    text-align: center;
 }
 .head2 {
     color: rgb(227, 160, 36);
@@ -13,6 +20,9 @@ body {
 }
 #aisatu {
     font-size: 2.0em;
+}
+.center {
+    text-align: center;
 }
 
 @media screen and (max-width:480){
